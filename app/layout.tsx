@@ -1,8 +1,9 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import './globals.css'
+import "bootstrap/dist/css/bootstrap.min.css"; 
+import './globals.css';
+import Head from './head';
 import { Inter } from 'next/font/google'
-
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -17,12 +18,11 @@ export default function RootLayout({
 }) {
     return (
         <html suppressHydrationWarning lang="en">
+            <Head />
             {/*
                 <head /> will contain the components returned by the nearest parent
                 head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
             */}
-            <head />
-
             <body className="">
                 <Header />
                 {children}
