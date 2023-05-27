@@ -9,6 +9,7 @@ const blog: blog[] = [
         image: "/images/Blog/blog.png",
         content: "Want to drive traffic to your website and increase your online visibility? Our search engine marketing services can help you achieve that.",
         link: "/blog/another-blog-post-1",
+        btnTitle: "Learn More",
     },
     {
         id: 2,
@@ -17,6 +18,7 @@ const blog: blog[] = [
         image: "/images/Blog/blog.png",
         content: "Want to drive traffic to your website and increase your online visibility? Our search engine marketing services can help you achieve that.",
         link: "/blog/another-blog-post-2",
+        btnTitle: "Learn More",
     },
     {
         id: 3,
@@ -25,6 +27,7 @@ const blog: blog[] = [
         image: "/images/Blog/blog.png",
         content: "Want to drive traffic to your website and increase your online visibility? Our search engine marketing services can help you achieve that.",
         link: "/blog/another-blog-post-3",
+        btnTitle: "Learn More",
     },
     {
         id: 4,
@@ -33,6 +36,7 @@ const blog: blog[] = [
         image: "/images/Blog/blog.png",
         content: "Want to drive traffic to your website and increase your online visibility? Our search engine marketing services can help you achieve that.",
         link: "/blog/another-blog-post-4",
+        btnTitle: "Learn More",
     }
 ];
 export default blog;

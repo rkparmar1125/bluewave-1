@@ -38,6 +38,7 @@ return (
             <div className="container">
                 <div className="relative -mx-4 flex items-center justify-between">
                     <div className=" w-60 max-w-full px-4 xl:mr-12 logo-sec">
+                        
                         <Link href="/" className={`header-logo block w-full ${  sticky ? "py-5 lg:py-2" : "py-8" } `} >
                             <Image src={Logo} width={150} height={150} alt="Logo" className="logo-img" />
                         </Link>
@@ -76,10 +77,8 @@ return (
                                                                         {  
                                                                         submenuItem.childmenu
                                                                             ? submenuItem.childmenu.map( (childmenuItem, index2) =>  
-                                                                            (
-                                                                                
-                                                                                    <Link href={childmenuItem.path?childmenuItem.path:''} className="nav-link block rounded py-2.5 text-sm text-dark hover:opacity-70 dark:text-white lg:px-3" key={childmenuItem.id} >{childmenuItem.title}</Link>
-                                                                                
+                                                                            ( 
+                                                                                <Link href={childmenuItem.path?childmenuItem.path:''} className="nav-link block rounded py-2.5 text-sm text-dark hover:opacity-70 dark:text-white lg:px-3" key={childmenuItem.id} >{childmenuItem.title}</Link>   
                                                                             )) 
                                                                             : 
                                                                             ''

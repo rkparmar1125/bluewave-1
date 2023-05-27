@@ -58,7 +58,6 @@ const settings = {
 };
 
 const Blog = () =>{
-    
     return (
         <div className="blog-section">
             <div className="container">
@@ -71,7 +70,7 @@ const Blog = () =>{
                                         <Image src={items.image} alt="Blog Img" width={200} height={200} />
                                         <h5>{items.title}</h5>
                                         <p>{items.content}</p>
-                                        <Link href={items.link}  >Learn More</Link>
+                                        <Link href={items.link} >{items.btnTitle}</Link>
                                     </div>
                                 ))}
                             </Slider>
