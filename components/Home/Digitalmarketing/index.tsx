@@ -13,12 +13,12 @@ const Digitalmarketing = () =>{
                             <div className="digital-marketing-con">
                                 <h2>{Message.TITLE}</h2>
                                 <p>{Message.CONTENT}</p>    
-                                <Link href="/" >{Message.BTN}</Link>
+                                <Link href="/" className="btn">{Message.BTN}</Link>
                             </div>
                             <div className="digital-marketing-img">
                                 <Image 
                                 src={DigitalMarketingImage}
-                                 alt="Digital Marketing Image" /> 
+                                 alt="Digital Marketing Image"  /> 
                             </div>
                         </div>
                     </div>

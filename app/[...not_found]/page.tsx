@@ -2,8 +2,8 @@ import Link from 'next/link'
 
 export default function NotFound() {
   return (
-    <main className="main 404">
-        <div className="404-sec" >
+    <main className="main error">
+        <div className="error-sec" >
             <div className="container">
                 <div className="row">
                     <div className="col-12">

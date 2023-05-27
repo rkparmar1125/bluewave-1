@@ -11,12 +11,12 @@ const BlogLink = () => {
                     <div className="row">
                         <div className="col-12">
                             <h2>{Message.Link_TITLE}</h2>
-                            <Link href="/" >{Message.Link_MENU1}</Link>
-                            <Link href="/" >{Message.Link_MENU2}</Link>
-                            <Link href="/" >{Message.Link_MENU3}</Link>
-                            <Link href="/" className="selected">{Message.Link_MENU4}</Link>
-                            <Link href="/" >{Message.Link_MENU5}</Link>
-                            <Link href="/" >{Message.Link_MENU6}</Link>
+                            <Link href="/" className="btn" >{Message.Link_MENU1}</Link>
+                            <Link href="/" className="btn" >{Message.Link_MENU2}</Link>
+                            <Link href="/" className="btn" >{Message.Link_MENU3}</Link>
+                            <Link href="/" className="btn selected">{Message.Link_MENU4}</Link>
+                            <Link href="/" className="btn" >{Message.Link_MENU5}</Link>
+                            <Link href="/" className="btn" >{Message.Link_MENU6}</Link>
                         </div>
                     </div>
                 </div>

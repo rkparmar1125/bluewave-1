@@ -64,7 +64,7 @@ const Quickstats = () =>{
                                 <h5>{Message.QUICK_TITLE}</h5>
                                 <h3>{Message.QUICK_SUB_TITLE}</h3>
                                 <p>{Message.QUICK_CONTENT}</p>
-                                <Link href="/">{Message.QUICK_BTN}</Link>
+                                <Link href="/" className="btn">{Message.QUICK_BTN}</Link>
                             </div>
                             <div className="col-6">
                                 <Image src={RightImage} 

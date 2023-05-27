@@ -15,7 +15,7 @@ const Banner = () => {
                             <div className="banner-text">
                                 <h1 className="">{Message.TITLE}</h1>
                                 <p>{Message.FIRST_CONTENT}<br />{Message.SECOND_CONTENT}</p>
-                                <Link href="/" className="banner-btn" >{Message.BTN}</Link>
+                                <Link href="/" className="btn" >{Message.BTN}</Link>
                             </div>
                             <Image src={RightSideImage} alt="Right Img" className="banner-right-img" />
                         </div>
