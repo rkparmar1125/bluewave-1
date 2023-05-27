@@ -25,7 +25,7 @@ const OurClient = () =>{
                                                                         alt={imageUrl.title } 
                                                                         width={100}
                                                                         height={100}
-                                                                        className="client-img"
+                                                                        className={"wow fadeInUp client-img"}
                                                                         />
                                                                 ) 
                                                             )

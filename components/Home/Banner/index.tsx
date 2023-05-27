@@ -12,7 +12,7 @@ const Banner = () => {
                     <div className="row">
                         <div className="col-12">
                             <Image src={LeftSideImage} alt="Left Img" className="banner-left-img" />
-                            <div className="banner-text">
+                            <div className={"wow fadeInUp banner-text"} >
                                 <h1 className="">{Message.TITLE}</h1>
                                 <p>{Message.FIRST_CONTENT}<br />{Message.SECOND_CONTENT}</p>
                                 <Link href="/" className="btn" >{Message.BTN}</Link>
